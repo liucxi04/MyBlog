@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myBlog">
+    <output-path>$PROJECT_DIR$/out/artifacts/myBlog</output-path>
+    <root id="archive" name="myBlog.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="blog" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
